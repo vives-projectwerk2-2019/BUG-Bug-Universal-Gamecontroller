@@ -17,6 +17,7 @@ At the [Maker Faire Gent](https://www.makerfairegent.be/) we will launch the fir
 
 * LoRaWAN wireless communication technology
 * E-Ink display for low power visualization
+* Capacitive touch
 * Open source API's
 * Customizable with addon cards
 * Turn-based, top-down tank game
