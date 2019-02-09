@@ -6,10 +6,10 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "vuepress": "^0.14.8"
   },
+  "devDependencies": {},
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
