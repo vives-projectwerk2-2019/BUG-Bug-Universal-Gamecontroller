@@ -1,0 +1,26 @@
+{
+  "name": "bug-universal-gamecontroller",
+  "version": "0.0.1",
+  "description": "BUG: Bug Universal Gamecontroller",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vives-projectwerk2-2019/BUG-Bug-Universal-Gamecontroller.git"
+  },
+  "author": "Sille Van Landschoot <info@sillevl.be>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vives-projectwerk2-2019/BUG-Bug-Universal-Gamecontroller/issues"
+  },
+  "homepage": "https://github.com/vives-projectwerk2-2019/BUG-Bug-Universal-Gamecontroller#readme"
+}
