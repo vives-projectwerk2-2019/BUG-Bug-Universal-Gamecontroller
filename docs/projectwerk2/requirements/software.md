@@ -1,6 +1,6 @@
 ---
 prev: ./firmware.md
-next: ./README.md
+next: ./minimum-requirements.md
 ---
 
 # Software requirements
