@@ -37,7 +37,7 @@ To meet the objectives of the project, some requirements are mandatory:
 
 The team of hardware developers should meet/communicate on a regular basis with the software development team. The use of the iterative and incremental Agile software development methodology of **SCRUM** \(see **image below**\) is mandatory. One of the major contributors to the successful realization of a project is an intense, regular communication between the hardware and the software engineering teams. Detailed agreements on interfaces, connectors, communication protocols, pinout, ... are mandatory and fundamental to guarantee the successful realization of your project within a realistic period of time.
 
-![Agile SCRUM Methodology of software development](img/SCRUM.jpg)
+![Agile SCRUM Methodology of software development](./img/SCRUM.jpg)
 
 ## Git
 
@@ -55,7 +55,7 @@ URL: [http://project.devbit.be/](http://project.devbit.be/ "Redmine - Project Ma
 
 > **Redmine** is a flexible project management web application. Written using the Ruby on Rails framework, it is cross-platform and cross-database.
 
-![the REDMINE Project Management Web Application](img/redmine2.jpg)
+![the REDMINE Project Management Web Application](./img/redmine2.jpg)
 
 During this first session, a detailed planning must be made for the full length of time for the project. Each member must have at least one task assigned to himself at any moment during the development of the project.
 
@@ -63,7 +63,7 @@ At the end of each project day an evaluation will be made for each group based o
 
 > If it's not in the logs, it never happened !
 
-![IT project estimates](img/it-project-estimates.jpg)
+![IT project estimates](./img/it-project-estimates.jpg)
 
 ## Slack
 

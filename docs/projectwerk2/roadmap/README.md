@@ -13,8 +13,12 @@ prev: ../
 * Friday 15 march - 15h30 till 18h45
 * Thursday 4 april - 12h30 till 15h30
 
-/* Not the official list and subject to change
+\* Not the official list and subject to change
 
 ## Presentation
 
 Maker Faire Gent **3, 4 and 5 may** 2019
+
+![Maker Faire Gent logo](../img/makerfairegent.png)
+
+[www.makerfairegent.be](https://www.makerfairegent.be/)

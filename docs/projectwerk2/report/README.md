@@ -18,4 +18,11 @@ A basic structure is already provided. When adding new documents and information
 * pictures
 * video's using youtube
 
+## Language
+
+All content created for the report should be in English.
+
+## Deadline
+
 The [Projectwerk2-2018/vives-smart-campus](https://github.com/Projectwerk2-2018/vives-smart-campus) project will be locked 1 week after the final presentation. This means you will not be able change anything anymore after this date.
+

@@ -34,4 +34,4 @@ This project is organized for the Projectwork 2 course. Guidelines and informati
 
 As a matter of fact, your team should always avoid product development disasters, as presented in the following picture:
 
-![Product development](img/IT.png)
+![Product development](./img/IT.png)
