@@ -1,6 +1,6 @@
 ---
 prev: ./software.md
-next: ../presentation
+# next: ../presentation #FIX: produces build errors
 ---
 
 # Collaboration

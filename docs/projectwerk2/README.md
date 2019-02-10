@@ -1,6 +1,6 @@
 ---
 prev: ../
-next: ./projectwerk2/description/README.md
+# next: ./description #FIX: produces build errors
 ---
 
 # Projectwerk 2
