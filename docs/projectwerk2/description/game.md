@@ -1,9 +1,19 @@
 ---
 prev: ./api.md
 next: ./scoreboard.md
+status: DRAFT
 ---
 
-# Game requirements
+# Game
+
+Turn based
+Slow speed
+Browser based (Phaser)
+
+
+Example:
+
+![](./img/screen-0.jpg)
 
 
 ## Game mechanics
