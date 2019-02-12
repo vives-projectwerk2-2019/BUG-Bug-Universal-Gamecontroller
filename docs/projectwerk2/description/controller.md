@@ -6,50 +6,48 @@ status: DRAFT
 
 # Controller
 
-The controller could be build like on the sketch below. 
+The controller could be build like shown in the sketch below.
 
 ![Controller sketch](./img/controller-sketch.png)
 
-## Capacitive touch 
+## Capacitive Touch
 
 ![Touchberry Pi](./img/touchberrypi.jpg)
 
-The controller could be build without any hardware for the controls. This could be solved using capacitive touch. In this way, you don't need any physical hardware, (many buttons are way to small to interface directly and are uncomfortable). Capacitive touch pads only require some space on a PCB.
+The controller should be build without any hardware, like mechanical buttons, for the controls. This van be achieved by using capacitive touch. This way, you don't need any physical hardware, (many buttons are way to small to interface directly and are uncomfortable). Capacitive touch pads only require some space on a PCB.
 
-An example can be found on the [Touchberry Pi controller](https://circuitmaker.com/Projects/Details/Sille-Van-Landschoot-2/TouchBerry-Pi). All the sources of this design are open source on [circuitmaker.com ](https://circuitmaker.com/Projects/Details/Sille-Van-Landschoot-2/TouchBerry-Pi).
+An example can be found on the [Touchberry Pi controller](https://circuitmaker.com/Projects/Details/Sille-Van-Landschoot-2/TouchBerry-Pi). All the schematics and PCB designs of this controller are open source and can be found at [circuitmaker.com ](https://circuitmaker.com/Projects/Details/Sille-Van-Landschoot-2/TouchBerry-Pi).
 
-The touchberry Pi shield could even be used for protoyping. No extra hardware is required as they use a simple QT1070 chip that you can communicate with using I²C. More information could be found in the [datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf)
+The Touchberry Pi shield can even be used for prototyping. No extra hardware is required as it uses a simple QT1070 chip that you can interface using I²C. More information can be found in the [datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9596-AT42-QTouch-BSW-AT42QT1070_Datasheet.pdf).
 
-One thing to remember is that the QT1070 does not support multitouch. So care need to be taken in the design and how to make practical use of it. None the less this won't prevent you to do some cool stuff with it.
+One thing to remember is that the QT1070 does not support multitouch. This will need to be considered in the design of your controller. None the less this won't prevent you to do some cool stuff with the Touchberry controller.
 
-Note: The STM32 microcontroller supports capacitive touch out of the box as wel. At the moment, no proof of concept or example as available. It will need some work and datasheet diving to get it working on mbed. Maybe not easy but definetly possible.
+Note: The STM32 microcontroller supports capacitive touch out of the box as well. At the moment, no proof of concept or examples are available. It will need some work and datasheet diving to get it working on Mbed. Maybe not easy but definitely possible.
 
 ## LoRaWAN communication
 
 ![LoRaWAN logo](./img/lorawan.png)
 
-To make a wireless controller we need a means of wireless communication. Wifi is not low-power enough, and Bluetooth needs an extra receiver close by. 
+To make a controller wireless, it needs to be equipped with a wireless technologie. Wifi is not low-power enough, and Bluetooth needs an extra receiver close by. LoRaWAN is low power and does not necessarily need any receiver close by. It makes for a great technology to make the controller wireless.
 
-LoRaWAN is low power and does not necessarily needs any receiver close by. It makes a great technology to make our controller wireless.
-
-LoRaWAN has some limitation, but this does not mean it will prevent us from doing some cool stuff with it. This project will prove it otherwise.
+LoRaWAN does have some limitation, but this does not mean it will prevent us from doing some cool stuff with it. This project will prove certainly prove that.
 
 ## Smart Dongles
 
 ![Dongles](./img/dongle.png)
 
-The controller could be made extensible by adding some (3 or 4) slots to add some dongles. The dongles are provisioned with a small EEPROM chip that contains data or and identifier. Using I²C, the dongles could be read at startup and unlock functionality.
+The controller needs be made extensible. This can be achieved by adding some expansion slots (3 or 4) for dongles (addon cards). The dongles are provisioned with a small EEPROM chip that contains data or and identifier. Using I²C, the dongles can be read at startup and unlock functionality.
 
-One of the dongles could be used to identify yourself to the controller. Anybody could get a peronal (keychain) dongle. If you would like to play with any controller you just need to insert your personal dongle, and the game knows who you are. 
+One of the dongles will need to be used to identify yourself to the controller. This way, anyone could get a personal dongle (as a keychain for example). If you would like to play with any controller you just need to insert your personal dongle, and the game knows who you are.
 
-Some dongles could have some LED's on them to display status. Or could we add another capacitive touch button to add some extra features?
+Some dongles could have some LED's on them to display status. Or maybe , another capacitive touch button can be added to add some extra features?
 
 ### Choose your weapons !
 
-The dongles could have specific functions. Some dongles could act as weapons, other will help you defend or will give an energy boost. Some examples are:
+The dongles could have specific functions. Some dongles could act as weapons, other will help you defend or will give an energy boost. Some examples might be:
 
 * Weapons
-  * Flammenwerfers
+  * Flammenwerpfers
   * Lasers
   * Mines
   * Plasma guns
@@ -63,21 +61,20 @@ The dongles could have specific functions. Some dongles could act as weapons, ot
   * Airlifts
   * Harriers
 
-Depending on the dongles you insert in your controller you could make your personal bot.
+Depending on the dongles you insert in your controller you could make your personal tank/bot.
 
 ## E-paper display
 
 ![E-Paper display](./img/epaper-display.jpg)
 
-In the center, an E-Paper display could be placed to give feedback to the user. It could display different kinds of information:
+In the center, an E-Paper display could be placed to give feedback to the user. It may be used to display different kinds of information:
 
-* the life
-* types of extensions (dongles)
+* your hit points (health)
+* types of addons (dongles)
 * battery status
 * the name of the authenticated player
 * bullets fired / bullets left
 * energy level
-
 
 ## Battery powered
 
