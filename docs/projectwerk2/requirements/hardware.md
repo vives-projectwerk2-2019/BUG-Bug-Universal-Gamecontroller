@@ -5,7 +5,7 @@ next: ./firmware.md
 
 # Hardware requirements
 
-The non-limited list of tasks of the hardware designers consists of the:
+The non-limited list of tasks of the hardware designers consist of the:
 
 * development of a prototype using a processor and sensor boards;
 * development of a custom battery powered PCB;
@@ -22,7 +22,7 @@ The STM32 Nucleo board provides an affordable and flexible way for users to try 
 
 The Arduino™ connectivity support and ST Morpho headers make it easy to expand the functionality of the STM32 Nucleo open development platform with a wide choice of specialized shields.
 
-The STM32 Nucleo board does not require any separate probe as it integrates the ST-LINK/V2-1 debugger/programmer.
+The STM32 Nucleo board does not require any separate probe to program the microcontroller as it integrates the ST-LINK/V2-1 debugger/programmer.
 
 ![Nucleo](./img/en.nucleo-Lx.jpg)
 
@@ -101,16 +101,16 @@ The STM32L476RG SoC provides the following hardware IPs:
 
 ![Morpho headers](./img/nucleo_l476rg_morpho.png)
 
-### More information:
+### More information
 
- * Official ST website: https://www.st.com/en/evaluation-tools/nucleo-l476rg.html
- * mbed OS: https://os.mbed.com/platforms/ST-Nucleo-L476RG/
+The Nucleo platform with the L476RG is the ideal prototyping platform. It is fully supported by Mbed (Mbed OS and Mbed CLI), its a powerful processor that enables us to experiment without many limitations. The STM32-L476 is also able to run in very low power modes.
 
-The Nucleo platform with the L476RG is the ideal prototyping platform. It is fully supported by mbed (mbed OS and mbed CLI), its a powerful processors that enables us to experiment without many limitations. The STM32-L476 is also able to run in very low power modes.
+* Official ST website: https://www.st.com/en/evaluation-tools/nucleo-l476rg.html
+* Mbed OS: https://os.mbed.com/platforms/ST-Nucleo-L476RG/
 
 ## Custom PCB
 
-In the next stage, a custom PCB must be build using only the essential components. The PCB must also make use of battery power to operate, and must be optimized to run as long as possible. PCB's can be ordered online using a service like http://www.allpcb.com/ or an alternative service.
+In the next stage, a custom PCB must be build using only the essential components. The PCB must also make use of battery power to operate, and must be optimized to run as long as possible. PCB's can be ordered online using a service like [http://www.allpcb.com/](http://www.allpcb.com/) or an alternative service.
 
 The PCB can be designed using the design software of your preference. We recommend [CircuitMaker](https://circuitmaker.com/), but [Eagle](https://www.autodesk.com/products/eagle/overview) is also a good option.
 
