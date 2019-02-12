@@ -1,6 +1,6 @@
 ---
 prev: ./software.md
-next: ./README.md
+# next: ./README.md
 ---
 
 # Minimal Requirements
