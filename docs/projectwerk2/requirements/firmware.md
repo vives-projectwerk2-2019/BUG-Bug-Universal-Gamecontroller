@@ -24,3 +24,7 @@ ARM mBed OS is an open source embedded operating system designed specifically fo
 ![mBed OS](./img/mbed_internal.png)
 
 More info about mBed OS can be found at [https://os.mbed.com/](https://os.mbed.com/).****
+
+## Version control with git and GitHub
+
+All firmware code should be managed with git and GitHub. Manage the code projects in a repository on https://github.com/vives-projectwerk2-2019.
