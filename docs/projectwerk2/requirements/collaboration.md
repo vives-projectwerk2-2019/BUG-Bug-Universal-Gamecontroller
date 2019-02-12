@@ -14,18 +14,18 @@ The project could be subdivided in multiple major parts:
 5. visualization
 6. docker
 7. API
-8. Documentation
+8. documentation
 9. ...
 
 Each topic must be subdivided into smaller topics. _Each student_ should be engaged in _at least one_ of these major project parts. If the sub-project, in which you are involved, is finished, you should join your colleagues to support their design team. Developers can switch teams when priorities shift during the project. After all, the success of the global project depends on each cooperator!
 
 To meet the objectives of the project, some requirements are mandatory:
 
-* Define and accept only **SMART** objectives 
-  * Specific 
+* Define and accept only **SMART** objectives
+  * Specific
   * Measurable
-  * Acceptable 
-  * Realistic 
+  * Acceptable
+  * Realistic
   * Time Bound
 * Plan Ahead, Plan wise. Therefore a Project Management System is the ideal support tool to enable this task. The project will be managed by **Redmine**.
 * Efficient distribution and follow-up of tasks within the design team
@@ -35,7 +35,7 @@ To meet the objectives of the project, some requirements are mandatory:
 
 ## Agile Development SCRUM Methodology
 
-The team of hardware developers should meet/communicate on a regular basis with the software development team. The use of the iterative and incremental Agile software development methodology of **SCRUM** \(see **image below**\) is mandatory. One of the major contributors to the successful realization of a project is an intense, regular communication between the hardware and the software engineering teams. Detailed agreements on interfaces, connectors, communication protocols, pinout, ... are mandatory and fundamental to guarantee the successful realization of your project within a realistic period of time.
+The team of hardware developers should meet/communicate on a regular basis with the software development team. The use of the iterative and incremental Agile software development methodology of **SCRUM** (see **image below**) is mandatory. One of the major contributors to the successful realization of a project is an intense, regular communication between the hardware and the software engineering teams. Detailed agreements on interfaces, connectors, communication protocols, pinout, ... are mandatory and fundamental to guarantee the successful realization of your project within a realistic period of time.
 
 ![Agile SCRUM Methodology of software development](./img/SCRUM.jpg)
 
@@ -43,9 +43,9 @@ The team of hardware developers should meet/communicate on a regular basis with 
 
 All code and progress should be managed using Git. [github.com](https://github.com) can be used to create repositories and organize collaboration. Teachers should have full access to the projects, and projects should be public.
 
-An GitHub organization [vives-projectwerk2-2019](https://github.com/vives-projectwerk2-2019) is provided for managing all the code projects. You have full access to this organization. Create, edit, build, do whatever you need in this organization. 
+A GitHub organization [vives-projectwerk2-2019](https://github.com/vives-projectwerk2-2019) is provided for managing all the code projects. You have full access to this organization. Create, edit, build, do whatever you need in this organization.
 
-Make sure all projects are placed inside [vives-projectwerk2-2019](https://github.com/vives-projectwerk2-2019) organisation. Do not use personal accounts or other organizations to manage your code projects.
+Make sure all projects are placed inside the [vives-projectwerk2-2019](https://github.com/vives-projectwerk2-2019) organization. Do not use personal accounts or other organizations to manage your code projects.
 
 Note: Even failed experiments or code not used in the end result must be stored in Git repositories. **Code that has not been committed, is code that never existed. Ever!.**. Commits can be reverted, test code can be stored inside separate branches. You can even fork the project to experiment. There are multiple options.
 
@@ -67,6 +67,6 @@ At the end of each project day an evaluation will be made for each group based o
 
 ## Slack
 
-A slack channel "bug" is created for this project. Preferable all communication and discussions should be done here if it does not concern to Redmine.
+A slack channel "bug" is created for this project. Preferable all communication and discussions should be done here if it does not concern to Redmine. To keep discussions a bit grouped, be sure to make use of threads in the slack channel.
 
 [https://eo-ict-vives.slack.com/messages/bug/](https://eo-ict-vives.slack.com/messages/bug/)
