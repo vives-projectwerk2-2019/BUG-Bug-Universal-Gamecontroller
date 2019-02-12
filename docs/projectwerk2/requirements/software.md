@@ -7,10 +7,12 @@ next: ./minimum-requirements.md
 
 ## Browser Game
 
-The game that needs to be build is not just acting as a showcase for the controller, its a standalone entity that may be used with other applications or controllers. It should comply to the following requirements:
+The game that needs to be build is not just acting as a showcase for the controller, its a standalone entity that may be used with other applications or controllers.
+
+It should comply to the following requirements:
 
 * It should be a top down, slow speed game following the proposed game mechanics
-* It needs to be browser based so it is portable
+* It needs to be browser based so it is portable. It will come publicly available on the domain name: [bug-game.devbit.be](https://bug-game.devbit.be) (or any other domain name if another name is chosen).
 * It should make use of a framework such as Phaser to build the actual game mechanics and logic
 * Its state needs to be advertized via a public API
 * The game needs to be manageable via the API
@@ -33,8 +35,16 @@ Identification and authentication will also be required when sending commands to
 
 All services and applications should be hosted in docker containers. This will allow quick and easy deployment and management on our production servers.
 
+### Docker Cloud
+
+All docker containers should be uploaded to [docker cloud](https://hub.docker.com/) This can easily be done by configuring docker cloud to build new containers whenever new code is pushed to GitHub. Automate container building to prevent problems or extra work.
+
+### Docker-compose
+
+Software projects should also contain [docker-compose](https://docs.docker.com/compose/) files to get the containers running quickly without manually figuring out the settings.
+
 ## Git and GitHub
 
-All code should be hosted on public git repositories inside the [https://github.com/vives-projectwerk2-2019](https://github.com/vives-projectwerk2-2019) organization. Code that was never committed, never existed.
+All software code should be managed using Git and GitHub. A GitHub organization is provided for all the repositories. Make use of this [vives-projectwerk2-2019](https://github.com/vives-projectwerk2-2019) organization to create and manage your projects. Code should not be published on any private accounts.
 
 Make sure to document the API thoroughly so anyone can use it.
