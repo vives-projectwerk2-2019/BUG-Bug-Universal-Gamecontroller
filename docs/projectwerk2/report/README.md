@@ -1,4 +1,6 @@
-
+---
+prev: ../
+---
 
 # Report
 
@@ -17,6 +19,8 @@ A basic structure is already provided. When adding new documents and information
 * attachments: images, schematics, code, ...
 * pictures
 * video's using youtube
+
+The original content pages of the project description/assignment should not be altered. Meaning that all files in `docs/projectwerk2` are not to be changed.
 
 ## Language
 
