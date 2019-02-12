@@ -2,25 +2,24 @@
 sidebar: false
 ---
 
-
 # BUG: Bug Universal Gamecontroller
 
-Students of the VIVES electronics-ICT department at campus Bruges (aka devbit) introduce: BUG, the universal gameconsole. BUG is the worlds most low power game console. By using the LoRaWAN Internet of Things wireless technology, BUG is able to communicate over long distances without using mucht power. Therefore you won't need to think about batteries in the controller. 
+Students of the VIVES electronics-ICT department at campus Bruges (aka devbit) introduce: **BUG, the universal gameconsole**. BUG is the worlds most low power game console. By using the LoRaWAN Internet of Things wireless technology, BUG is able to communicate over long distances without using much power. Therefore you won't need to think about batteries in the controller for many years to come.
 
-On top of this, the BUG controller is customizable and configurable by means of small pluggable cards. This enables you to choose your own weapons and upgrades by composing your own controller. 
+On top of this, the BUG controller is customizable and configurable by means of small plugable cards. This enables you to choose your own weapons and upgrades by composing your own controller.
 
-The BUG console constructed out of a collection of open source API's that enable everybody to develop there own games and applications. 
+The BUG console is build out of a collection of open source API's that enable everybody to develop there own games and applications.
 
-At the [Maker Faire Gent](https://www.makerfairegent.be/) we will launch the first game, a turn-based, top-down tank battle game. On thop of that we will display an DIY display based on a Raspberry Pi with FPGA and 6000 RGB leds.
+At the [Maker Faire Gent](https://www.makerfairegent.be/) we will launch the first game, a turn-based, top-down tank battle game. On top of that we will showcase a DIY display based on a Raspberry Pi, a Mojo FPGA and over 6000 RGB leds.
 
 ![Bug Logo](./img/bug-logo.png)
 
-This projects consists out of the following part:
+This projects consists of the following components:
 
-* [Controller](./controller): Controller that uses LoRaWAN for communication. Input is handled by capacitive touch buttons, and an E-Ink display for status and feedback. 
-* [API](./api): All actions performed by the controller are available by an API. This enables you to do whatever you want with the controller. Making it truely *universal*
-* [Game](./game): To demonstrate the controller and the API, an game is developed to showcase all its features.
-* [Scoreboard](./scoreboard): An DIY scoreboard that displays the gamestatues. The board is DIY made with an Raspberry Pi, FPGA and 6000 RGB leds.
+* [A controller](./controller): A controller that uses LoRaWAN for communication. Input is handled by capacitive touch buttons. A low power E-Ink display is used for status and feedback. It is also equipped with expansion slots to plug in several addon cards.
+* [An API](./api): All actions performed by the controller are available by an API. This enables you to do whatever you want with the controller. Making it truly *universal*
+* [A game](./game): To demonstrate the controller and the API, a game is used to showcase all its features.
+* [A scoreboard](./scoreboard): A DIY scoreboard that displays the status of the game. The board is made with a Raspberry Pi, a Mojo FPGA and over 6000 RGB leds.
 
 ## Features
 
@@ -31,5 +30,3 @@ This projects consists out of the following part:
 * Customizable with addon cards
 * Turn-based, top-down tank game
 * DIY scoreboard
-
-
