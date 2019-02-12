@@ -29,7 +29,7 @@ Some inspiration could be Insane Robots:
 
 Every game needs some game mechanics. They are the rules that govern the world of that game and the players in it. They also determine the abilities and stats of your entities in the game.
 
-The sections below document a brief selection of basic mechanics for the tank game. 
+The sections below document a brief selection of basic mechanics for the tank game.
 
 ### Turn
 

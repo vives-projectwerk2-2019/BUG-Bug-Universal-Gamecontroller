@@ -49,6 +49,8 @@ Make sure all projects are placed inside the [vives-projectwerk2-2019](https://g
 
 Note: Even failed experiments or code not used in the end result must be stored in Git repositories. **Code that has not been committed, is code that never existed. Ever!.**. Commits can be reverted, test code can be stored inside separate branches. You can even fork the project to experiment. There are multiple options.
 
+Also make sure to document the setup of applications, services and firmware. This will allow students of other development parts to join in more quickly when needed - or to test your code.
+
 ## Redmine
 
 URL: [http://project.devbit.be/](http://project.devbit.be/ "Redmine - Project Management System")
