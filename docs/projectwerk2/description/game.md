@@ -1,20 +1,30 @@
 ---
 prev: ./api.md
 next: ./scoreboard.md
-status: DRAFT
 ---
 
 # Game
 
-Turn based
-Slow speed
-Browser based (Phaser)
+Using LoRaWAN for the controller introduces some limitations that we need to take into account. For example, we are only able to transmit data every 3 to 5 seconds. We won't see these consequences as limitations, but rather as challenges. 
+
+To build a game using these challenges, we need add some features to the game. For instance we are able to build a **turn-based**, slow-speed game. This type of game has proven to be fun and effective. Examples are Worms and Civilization. Having slower communication thus does not mean a boring game.
+
+The idea is to build a top-down game that makes use of 'hexes' to navigate through the map. Players are able to take over a 'bot' using there controller. And each player can play some actions during his turn. A turn could have time-out of 20 seconds. In your turn you could choose to move, rotate or fire at the enemies.
+
+You can use weapons like Flammenwerfers, Laser, Mines, Plasma guns, EMP bombs and many more. Players can choose to fortify there bots using armor, or could choose to increase health. All these options will be chosen using the dongles in the controller.
+
+## Browser based
+
+To be portable and be able to let everyone enjoy the game, it would be a good idea to build a browser based game using Phaser. Browser based games are ultra portable. You can play on your smartphone in the car, or on your 8K display at your desk, or maybe even on your smartwatch.
 
 
-Example:
+Some inspiration could be Insane Robots:
 
-![](./img/screen-0.jpg)
+![Insane Robots](./img/insane-robots-01.jpg)
 
+![Insane Robots](./img/insane-robots-02.jpg)
+
+![Insane Robots](./img/insane-robots-03.jpg)
 
 ## Game mechanics
 
