@@ -45,7 +45,7 @@ The sections below document a brief selection of basic mechanics for the tank ga
     * Rear is directed to origin hex after movement has ended
   * Rotate stationary
     * Costs 1 move, stay in hex
-  * Ramming: when moving into an occupied hex both bots get 5 damage
+  * Ramming: when moving into an occupied hex both bots get 5 damage, the ramming bot loses all remaining move of the action, the rammed bot is pushed in the opposite direction of where the ramming bot came from, if the rammed bot is pushed into an obstacle or water hex it receives an additional 5 damage
 * Health
   * Health points: 0 HP = disabled
 * Armor
