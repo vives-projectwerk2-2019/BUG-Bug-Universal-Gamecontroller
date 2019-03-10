@@ -12,13 +12,13 @@ Het terrein waarop het spel gespeeld wordt is onderverdeeld in hexagon’s. In d
 
 ## 3. Basic stats
 
-   • Movement
+    • Movement
         o Men kan maar 1 vakje bewegen per turn.
-   • Health
+    • Health
         o Iedere tank start met 100hp.
-   • Armor
+    • Armor
         o Iedere tank start met 0 armor.
-   • Weapon
+    • Weapon
         o Alle tanks hebben 1 standaard wapen.
 
 ## 4. Tanks
