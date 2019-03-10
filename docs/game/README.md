@@ -11,6 +11,7 @@ Het terrein waarop het spel gespeeld wordt is onderverdeeld in hexagon’s. In d
 ![Hexagon](./img/hexagon.png)
 
 ## 3. Basic stats
+
    • Movement
         o Men kan maar 1 vakje bewegen per turn.
    • Health
@@ -58,12 +59,12 @@ In het begin kan iedere speler de kleur van zijn tank kiezen en zijn special.
 ## 6. Extra boosts + dongels
 
     • Shield:
-        * Armour +25
+        o Armour +25
 
     • Movement boosts:
-        * Rocket engine: movement +3
-        * Harrier: jump 6 hexes once every 3 turns, can only jump into clear terrain, ignores terrain in between
-        * Amphibious: may enter water
+        o Rocket engine: movement +3
+        o Harrier: jump 6 hexes once every 3 turns, can only jump into clear terrain, ignores terrain in between
+        o Amphibious: may enter water
 
     • Mines (5)
         o Bury 1 mine on a hex
