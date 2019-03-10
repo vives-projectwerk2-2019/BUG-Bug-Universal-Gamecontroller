@@ -1,32 +1,31 @@
 # Game
 
-Game
-
-1. Uitleg
+## 1. Uitleg
 
 We maken een spel met gebruik van phaser. Het spel gaat een oorlogsspel zijn waarbij iedere speler (max 8) een eigen tank bestuurt. De bedoeling dan om je tegenstanders uit te schakelen. Op deze tank kan je uitbreiden speciale eigenschappen. Deze eigenschappen kan je kiezen door op je controller dongles in te pluggen. Zo zijn er specificaties die je kan kiezen namelijk de soort tank, je wapen, je armor en de boost die je tank heeft. Het voordeel hiervan is dat je zelf je tank kan samenstellen uit en hele soort mogelijkheden. Maar naast de dongles voor je de eigenschappen van je tank heb je ook een dongle met je eigen gegevens. Dit is gemakkelijk want dan kan je overal spelen met je eigen account zonder dat het lang duurt totdat je met je eigen account ingelogd bent.
 
-2. Terrein
+## 2. Terrein
 
 Het terrein waarop het spel gespeeld wordt is onderverdeeld in hexagon’s. In de map worden zijn er dan obstakels waar niet alle tanks doorheen kunnen. Er zijn zo bijvoorbeeld bossen of moerassen of bergen.
 
 ![Hexagon](./img/hexagon.png)
 
-3. Basic stats
-   • Movement
-        o Men kan maar 1 vakje bewegen per turn.
-   • Health
-        o Iedere tank start met 100hp.
-   • Armor
-        o Iedere tank start met 0 armor.
-   • Weapon
+## 3. Basic stats
+   * Movement
+    + Men kan maar 1 vakje bewegen per turn.
+   * Health
+    + Iedere tank start met 100hp.
+   * Armor
+    + Iedere tank start met 0 armor.
+   * Weapon
          o Alle tanks hebben 1 standaard wapen.
 
-4. Tanks
+## 4. Tanks
 
 In het begin kan iedere speler de kleur van zijn tank kiezen en zijn special.
 ![Tanks](./img/Tank_colour.png)
-    • Nature tank:
+
+    * Nature tank:
         o Deze tank kan op normale grond 2 vakjes vooruit.
     • Aquatank:
         o Deze tank kan door het water rijden.
@@ -37,7 +36,7 @@ In het begin kan iedere speler de kleur van zijn tank kiezen en zijn special.
     • Montistank:
         o Deze tank kan door bergen rijden.
 
-5. Wapens
+## 5. Wapens
 
     • Flammenwerpfer:
         o Range: 3 hexes line LoS
@@ -56,15 +55,15 @@ In het begin kan iedere speler de kleur van zijn tank kiezen en zijn special.
         o Range: Close range
         o Damage: 16
 
-6. Extra boosts + dongels
+## 6. Extra boosts + dongels
 
     • Shield:
-        o Armour +25
+        * Armour +25
 
     • Movement boosts:
-        o Rocket engine: movement +3
-         Harrier: jump 6 hexes once every 3 turns, can only jump into clear terrain, ignores terrain in between
-        o Amphibious: may enter water
+        * Rocket engine: movement +3
+        * Harrier: jump 6 hexes once every 3 turns, can only jump into clear terrain, ignores terrain in between
+        * Amphibious: may enter water
 
     • Mines (5)
         o Bury 1 mine on a hex
@@ -74,15 +73,15 @@ In het begin kan iedere speler de kleur van zijn tank kiezen en zijn special.
         o Range: all adjacent hexes
         o Special: Disable 1 item for the next turn, mines are also disabled
 
-7. Hoe starten ?
+## 7. Hoe starten ?
 
-o Log in op github ga naar BUG dan naar game-frontend.
-o Klik op clone kopieer dan de SSH link.
-o Ga naar een bestand in je laptop/pc open powershell en doe git clone en de SSH link.
-o Open dan game-frontend met Visual Studio Code.
-o Druk op ctrl+ù en type dan: php -S localhost:8000 .
+* Log in op github ga naar BUG dan naar game-frontend.
+* Klik op clone kopieer dan de SSH link.
+* Ga naar een bestand in je laptop/pc open powershell en doe git clone en de SSH link.
+* Open dan game-frontend met Visual Studio Code.
+* Druk op ctrl+ù en type dan: php -S localhost:8000 .
 
-8. Gameplay
+## 8. Gameplay
 
     • Player 1
         o Vooruit -> Z
@@ -99,6 +98,6 @@ o Druk op ctrl+ù en type dan: php -S localhost:8000 .
     • Truns
         o Move then fire
 
-9. Spellocatie
+## 9. Spellocatie
 
 Het is de bedoeling om de game op een site te laten draaien zodanig dat je tijdens het gamen kunt veranderen van toestel. Dit is gemakkelijk voor als je plots je scherm niet meer gebruiken door één of andere reden je verder kunt doen op een ander scherm.
