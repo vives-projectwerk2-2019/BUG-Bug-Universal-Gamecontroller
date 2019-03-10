@@ -11,21 +11,21 @@ Het terrein waarop het spel gespeeld wordt is onderverdeeld in hexagon’s. In d
 ![Hexagon](./img/hexagon.png)
 
 ## 3. Basic stats
-   * Movement
-    + Men kan maar 1 vakje bewegen per turn.
-   * Health
-    + Iedere tank start met 100hp.
-   * Armor
-    + Iedere tank start met 0 armor.
-   * Weapon
-         o Alle tanks hebben 1 standaard wapen.
+   • Movement
+        o Men kan maar 1 vakje bewegen per turn.
+   • Health
+        o Iedere tank start met 100hp.
+   • Armor
+        o Iedere tank start met 0 armor.
+   • Weapon
+        o Alle tanks hebben 1 standaard wapen.
 
 ## 4. Tanks
 
 In het begin kan iedere speler de kleur van zijn tank kiezen en zijn special.
 ![Tanks](./img/Tank_colour.png)
 
-    * Nature tank:
+    • Nature tank:
         o Deze tank kan op normale grond 2 vakjes vooruit.
     • Aquatank:
         o Deze tank kan door het water rijden.
