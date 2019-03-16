@@ -14,3 +14,5 @@ The programming languages we used for this are:
 * JavaScript is a widely used scripting language to make web pages interactive and develop web applications. The script is transferred to the web browser by means of HTML and is executed in it.
 
 ![JavaScript](https://github.com/vives-projectwerk2-2019/BUG-Bug-Universal-Gamecontroller/blob/master/logo_documentatie/javascript.png)
+
+
