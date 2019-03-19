@@ -15,4 +15,13 @@ The programming languages we used for this are:
 
 ![JavaScript](https://github.com/vives-projectwerk2-2019/BUG-Bug-Universal-Gamecontroller/blob/master/logo_documentatie/javascript.png)
 
+# Code
+## For the connection with the database
+We have a database connection with IP-address 127.0.0.1 --> this is a loopback-address, this means that the database connects with your home computer. It runs on port 3000. 
+
+Then we have the res object, this is an enhanced version of Node's own response object and supports all built-in-fields and methods. With other words, it sets the HTTP status for the response. It is a chainable alias of Node's response.statusCode. 
+
+If it is correct, you get the 200 notification which means OK. then it goes to the next line code, there it sets your header (=content-type + plain text). And at least it sends Hello World. 
+
+
 
