@@ -11,8 +11,6 @@ The programming languages we use for this are:
 * Javascript 
 * Docker
 
-
-
 ## MQTT / REST
 
 A combination of MQTT and HTTP REST must be used to perform actions and get information from the controller.
@@ -57,5 +55,5 @@ Organizing a small workshop on how to use the API in your own games could be an 
 To develop, test and demonstrate all functionality, a fake controller should be build. This controller exists purely out of software, and could be a (web) application. This controller can then be used during development. Features could be tested before the hardware is finished, or when the physical controller is not available.
 
 ## schema
-
+We work via a schema. This schema is created in a roadmap. It's like a cascade of things that needs to be done. So first we get "Get Id, than ID, than we go farther to the next line 4 dongles + dev_id, enc...". 
 ![schema of projectwerk](https://github.com/vives-projectwerk2-2019/BUG-Bug-Universal-Gamecontroller/blob/master/img/schema_projectwerk.png)
