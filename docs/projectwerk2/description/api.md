@@ -36,6 +36,9 @@ An HTTP REST API could be used for:
 
 Before you can authenticate using a registered dongle, you must register and manage a profile. An HTTP REST interface could be used for this feature. Together with a web interface to manage all users.
 
+A screenshot of the authentication can be find below:
+![authentication](
+
 ## Docker
 
 To run the software on a server in a manageable way, some help is needed. Docker makes containers for services and applications. These containers bundle everything needed to run the application. Because all these dependencies are shipped inside a container, setting up a new instance or even updating a server application is easy. Just run some commands and everything is up.
