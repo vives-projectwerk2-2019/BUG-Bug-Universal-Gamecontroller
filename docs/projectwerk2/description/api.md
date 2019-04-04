@@ -6,6 +6,12 @@ next: ./game.md
 # API
 
 Instead of creating custom applications in The Things Network console, we will create this application for the user. Instead all communication should go through an API. The API will inform any interested party of the buttons and controls that are pressed and used on any controller. Making this abstraction will make it very easy for any application or service to interface with the controllers. No knowledge of hardware or LoRaWAN is required.
+## software
+The programming languages we use for this are:
+* Javascript 
+* Docker
+
+
 
 ## MQTT / REST
 
