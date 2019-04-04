@@ -21,7 +21,9 @@ We have a database connection with IP-address 127.0.0.1 --> this is a loopback-a
 
 Then we have the res object, this is an enhanced version of Node's own response object and supports all built-in-fields and methods. With other words, it sets the HTTP status for the response. It is a chainable alias of Node's response.statusCode. 
 
-If it is correct, you get the 200 notification which means OK. then it goes to the next line code, there it sets your header (=content-type + plain text). And at least it sends Hello World. 
+If it is correct, you get the 200 notification which means OK. then it goes to the next line code, there it sets your header (=content-type + plain text). And at least it sends Hello World.
+
+ 
 
 
 
